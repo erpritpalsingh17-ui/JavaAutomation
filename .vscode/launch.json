@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug eRail",
+            "request": "launch",
+            "mainClass": "com.example.runner.ERailTestRunner",
+            "projectName": "JavaAutomation",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "-Dstation.workbook=${workspaceFolder}/target/testdata/erail-stations.xlsx"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "com.example.tests.Reverse",
+            "projectName": "JavaAutomation"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "com.example.tests.test",
+            "projectName": "JavaAutomation"
+        }
+    ]
+}

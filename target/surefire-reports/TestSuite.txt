@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.85 s <<< FAILURE! -- in TestSuite
+com.example.runner.ERailTestRunner.runScenario["Validate From station dropdown and date", "eRail station search"](1) -- Time elapsed: 12.36 s <<< FAILURE!
+java.lang.UnsupportedOperationException: Unimplemented method 'createExcelfile'
+	at com.example.utilities.ExcelUtils.createExcelfile(ExcelUtils.java:97)
+	at com.example.stepdefinitions.ERailSteps.validateStationListWithExcelData(ERailSteps.java:113)
+	at ✽.I validate the station list with Excel data(file:///Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/resources/features/ERail.feature:14)
+
