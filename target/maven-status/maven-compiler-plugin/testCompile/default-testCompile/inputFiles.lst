@@ -4,13 +4,8 @@
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/pages/OrangeHrmLoginPage.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/runner/ERailTestRunner.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/runner/OrangeHrmTestRunner.java
-/Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/runner/RunCucumberTest.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/stepdefinitions/ERailSteps.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/stepdefinitions/OrangeHrmLoginSteps.java
-/Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/steps/GoogleSearchSteps.java
-/Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/tests/GoogleTest.java
-/Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/tests/Reverse.java
-/Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/tests/test.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/utilities/DateUtils.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/utilities/ExcelUtils.java
 /Users/pritpalsingh/PlayWrightAutomation/JavaAutomation/src/test/java/com/example/utilities/ExtentReportManager.java

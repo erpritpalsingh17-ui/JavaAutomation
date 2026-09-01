@@ -5,15 +5,10 @@ com/example/utilities/OrangeHrmLoginData$LoginData.class
 com/example/hooks/Hooks.class
 com/example/runner/ERailTestRunner.class
 com/example/pages/OrangeHrmLoginPage.class
-com/example/tests/Reverse.class
-com/example/tests/test.class
 com/example/stepdefinitions/OrangeHrmLoginSteps.class
 com/example/pages/ERailPage.class
 com/example/stepdefinitions/ERailSteps.class
-com/example/runner/RunCucumberTest.class
-com/example/tests/GoogleTest.class
 com/example/utilities/ExtentReportManager.class
 com/example/utilities/ExcelUtils.class
 com/example/utilities/ScreenshotUtils.class
 com/example/utilities/DateUtils.class
-com/example/steps/GoogleSearchSteps.class
