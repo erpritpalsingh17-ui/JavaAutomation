@@ -1,24 +1,41 @@
 pipeline {
+
     agent any
 
     stages {
 
         stage('Checkout') {
             steps {
-                echo 'Code checkout successful'
+                git branch: 'main',
+                    url: 'https://github.com/YOUR_USERNAME/qa-automation.git'
             }
         }
 
-        stage('Build') {
+        stage('Install Dependencies') {
             steps {
-                echo 'Build started'
+                sh 'npm install'
             }
         }
 
-        stage('Test') {
+        stage('Run Automation Tests') {
             steps {
-                echo 'Automation tests started'
+                sh 'npx playwright test'
             }
+        }
+    }
+
+    post {
+
+        always {
+            echo 'Test execution completed'
+        }
+
+        success {
+            echo 'Automation tests PASSED'
+        }
+
+        failure {
+            echo 'Automation tests FAILED'
         }
     }
 }
