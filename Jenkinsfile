@@ -1,10 +1,15 @@
 pipeline {
     agent any
 
+    environment {
+        PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+
     stages {
 
         stage('Install Dependencies') {
             steps {
+                sh 'mvn -version'
                 sh 'mvn clean install -DskipTests'
             }
         }
