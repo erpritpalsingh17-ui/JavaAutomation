@@ -1,31 +1,22 @@
 pipeline {
-
     agent any
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/qa-automation.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                sh 'mvn clean install -DskipTests'
             }
         }
 
         stage('Run Automation Tests') {
             steps {
-                sh 'npx playwright test'
+                sh 'mvn test'
             }
         }
     }
 
     post {
-
         always {
             echo 'Test execution completed'
         }
