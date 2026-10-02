@@ -24,6 +24,14 @@ pipeline {
     post {
         always {
             echo 'Test execution completed'
+             publishHTML([
+            reportDir: 'reports',
+            reportFiles: 'ExtentReport.html',
+            reportName: 'Extent Test Report',
+            keepAll: true,
+            alwaysLinkToLastBuild: true,
+            allowMissing: true
+        ])
         }
 
         success {
